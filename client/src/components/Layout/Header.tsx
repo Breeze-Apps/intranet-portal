@@ -44,12 +44,12 @@ export const Header: React.FC = () => {
               } px-3 py-2`}>
                 Home
               </Link>
-              <Link to="/departments" className={`${
+              <Link to="/intranet-portal/departments" className={`${
                 theme === 'dark' ? 'text-gray-300 hover:text-white' : 'text-gray-700 hover:text-blue-600'
               } px-3 py-2`}>
                 Departments
               </Link>
-              <Link to="/feedback" className={`${
+              <Link to="/intranet-portal/feedback" className={`${
                 theme === 'dark' ? 'text-gray-300 hover:text-white' : 'text-gray-700 hover:text-blue-600'
               } px-3 py-2`}>
                 Feedback

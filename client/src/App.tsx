@@ -17,9 +17,9 @@ const AppContent = () => {
           <main className="flex-grow">
             <div className="max-w-6xl mx-auto px-4 py-8 w-full">
               <Routes>
-                <Route path="/" element={<HomePage />} />
-                <Route path="/departments" element={<div>Departments Page</div>} />
-                <Route path="/feedback" element={<div>Feedback Page</div>} />
+                <Route path="/intranet-portal/" element={<HomePage />} />
+                <Route path="/intranet-portal/departments" element={<div>Departments Page</div>} />
+                <Route path="/intranet-portal/feedback" element={<div>Feedback Page</div>} />
               </Routes>
             </div>
           </main>
